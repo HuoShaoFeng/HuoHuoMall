@@ -1,0 +1,7 @@
+package com.huohuo.rest.service.impl;
+
+import com.huohuo.rest.service.ItemService;
+
+public class ItemServiceImpl implements ItemService {
+
+}

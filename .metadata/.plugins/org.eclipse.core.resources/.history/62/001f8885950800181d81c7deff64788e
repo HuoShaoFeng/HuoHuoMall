@@ -1,0 +1,5 @@
+package com.huohuo.rest.service;
+
+public interface JedisClient {
+
+}

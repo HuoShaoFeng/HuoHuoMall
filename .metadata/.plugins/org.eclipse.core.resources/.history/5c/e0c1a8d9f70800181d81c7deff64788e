@@ -1,0 +1,5 @@
+package com.huohuo.search.service;
+
+public interface SearchDao {
+
+}

@@ -1,0 +1,9 @@
+package com.huohuo.service;
+
+import com.huohuo.common.pojo.TaotaoResult;
+
+public interface ItemParamService {
+	
+	TaotaoResult getItemParamByCid(long cid);
+
+}

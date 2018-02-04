@@ -1,0 +1,5 @@
+package com.huohuo.search.mapper;
+
+public interface ItemMapper {
+
+}

@@ -1,0 +1,16 @@
+package com.huohuo.search.service.impl;
+
+import org.apache.solr.client.solrj.SolrQuery;
+
+import com.huohuo.search.pojo.SearchResult;
+import com.huohuo.search.service.SearchDao;
+
+public class SearchDaoImpl implements SearchDao {
+
+	@Override
+	public SearchResult search(SolrQuery query) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

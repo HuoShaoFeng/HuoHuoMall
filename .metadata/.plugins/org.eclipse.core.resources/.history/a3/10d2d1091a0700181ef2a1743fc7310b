@@ -1,0 +1,16 @@
+package com.huohuo.service.impl;
+
+import java.util.List;
+
+import com.huohuo.common.pojo.EUTreeNode;
+import com.huohuo.service.ContentCategoryService;
+
+public class ContentCategoryServiceImpl implements ContentCategoryService {
+
+	@Override
+	public List<EUTreeNode> getCategoryList(long parentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

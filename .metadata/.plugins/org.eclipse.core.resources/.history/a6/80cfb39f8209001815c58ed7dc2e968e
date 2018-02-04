@@ -1,0 +1,24 @@
+package com.huohuo.rest.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.huohuo.common.pojo.TaotaoResult;
+import com.huohuo.mapper.TbItemMapper;
+import com.huohuo.pojo.TbItem;
+import com.huohuo.rest.service.ItemService;
+
+@Service
+public class ItemServiceImpl implements ItemService {
+
+	@Autowired
+	private TbItemMapper itemMapper;
+	@Override
+	public TaotaoResult getItemBaseInfo(long itemId) {
+		//根据商品id查询商品信息
+		TbItem item = itemMapper.selectByPrimaryKey(itemId);
+		//使用TaotaoResult包装一下
+		
+		return TaotaoResult.ok(item);
+	}
+}

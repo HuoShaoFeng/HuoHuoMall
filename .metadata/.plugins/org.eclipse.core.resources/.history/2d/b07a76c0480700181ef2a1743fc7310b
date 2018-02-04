@@ -1,0 +1,30 @@
+package com.huohuo.service.impl;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.huohuo.common.pojo.TaotaoResult;
+import com.huohuo.mapper.TbContentMapper;
+import com.huohuo.pojo.TbContent;
+import com.huohuo.service.ContentService;
+
+@Service
+public class ContentServiceImpl implements ContentService {
+
+	@Autowired
+	private TbContentMapper  contentMapper;
+	
+	@Override
+	public TaotaoResult insertContent(TbContent content) {
+		//补全pojo内容
+		content.setCreated(new Date());
+		content.setUpdated(new Date());
+		contentMapper.insert(content);
+		
+		return TaotaoResult.ok();
+
+	}
+
+}

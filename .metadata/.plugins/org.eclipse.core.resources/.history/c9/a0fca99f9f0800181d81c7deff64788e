@@ -1,0 +1,6 @@
+package com.huohuo.rest.service;
+
+public interface RedisService {
+	TaotaoResult syncContent(long contentCid) ;
+
+}

@@ -1,0 +1,13 @@
+package com.huohuo.rest.service;
+
+import com.huohuo.rest.pojo.CatResult;
+
+public class ItemCatServiceImpl implements ItemCatService {
+
+	@Override
+	public CatResult getItemCatList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.huohuo.portal.controller;
+
+@Controller
+public class ItemController {
+	
+	@Autowired
+	private ItemService itemService;
+
+	@RequestMapping("/item/{itemId}")
+	public String showItem(@PathVariable Long itemId, Model model) {
+		TbItem item = itemService.getItemById(itemId);
+		model.addAttribute("item", item);
+		
+		return "item";
+	}
+}

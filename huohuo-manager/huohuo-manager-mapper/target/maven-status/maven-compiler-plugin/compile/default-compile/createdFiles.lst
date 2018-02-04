@@ -1,0 +1,11 @@
+com\huohuo\mapper\TbUserMapper.class
+com\huohuo\mapper\TbItemParamMapper.class
+com\huohuo\mapper\TbOrderItemMapper.class
+com\huohuo\mapper\TbContentMapper.class
+com\huohuo\mapper\TbItemDescMapper.class
+com\huohuo\mapper\TbContentCategoryMapper.class
+com\huohuo\mapper\TbItemMapper.class
+com\huohuo\mapper\TbItemCatMapper.class
+com\huohuo\mapper\TbOrderShippingMapper.class
+com\huohuo\mapper\TbItemParamItemMapper.class
+com\huohuo\mapper\TbOrderMapper.class

@@ -1,0 +1,11 @@
+com\huohuo\search\pojo\SearchResult.class
+com\huohuo\search\service\SearchService.class
+com\huohuo\search\dao\SearchDao.class
+com\huohuo\search\service\impl\SearchServiceImpl.class
+com\huohuo\search\service\impl\ItemServiceImpl.class
+com\huohuo\search\pojo\Item.class
+com\huohuo\search\controller\SearchController.class
+com\huohuo\search\mapper\ItemMapper.class
+com\huohuo\search\dao\impl\SearchDaoImpl.class
+com\huohuo\search\service\ItemService.class
+com\huohuo\search\controller\ItemController.class

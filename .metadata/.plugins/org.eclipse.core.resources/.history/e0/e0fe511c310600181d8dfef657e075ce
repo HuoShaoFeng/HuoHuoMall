@@ -1,0 +1,7 @@
+package com.huohuo.service;
+
+public interface ItemParamItemService {
+
+	String getItemParamByItemId(long itemId);
+	
+}

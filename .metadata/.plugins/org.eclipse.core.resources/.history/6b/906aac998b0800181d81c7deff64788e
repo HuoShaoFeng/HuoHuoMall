@@ -1,0 +1,5 @@
+package com.huohuo.rest.jedis;
+
+public class JedisTest {
+
+}

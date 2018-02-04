@@ -1,0 +1,8 @@
+com\huohuo\controller\ContentController.class
+com\huohuo\controller\ItemParamController.class
+com\huohuo\controller\ContentCategoryController.class
+com\huohuo\controller\PictureController.class
+com\huohuo\controller\ItemCatController.class
+com\huohuo\controller\ItemParamItemController.class
+com\huohuo\controller\ItemController.class
+com\huohuo\controller\PageController.class

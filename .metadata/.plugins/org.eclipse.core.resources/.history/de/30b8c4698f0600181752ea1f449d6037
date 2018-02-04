@@ -1,0 +1,5 @@
+package com.huohuo.rest.pojo;
+
+public class CatResult {
+
+}

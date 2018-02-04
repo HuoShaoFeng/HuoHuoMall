@@ -1,0 +1,17 @@
+package com.huohuo.rest.controller;
+
+@Controller
+@RequestMapping("/item")
+public class ItemController {
+
+	@Autowired
+	private ItemService itemService;
+	
+	@RequestMapping("/info/{itemId}")
+	@ResponseBody
+	public TaotaoResult getItemBaseInfo(@PathVariable Long itemId) {
+		TaotaoResult result = itemService.getItemBaseInfo(itemId);
+		return result;
+	}
+	
+}

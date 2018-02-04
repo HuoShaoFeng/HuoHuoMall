@@ -1,0 +1,5 @@
+package com.huohuo.portal.service;
+
+public class ContentServiceImpl {
+
+}

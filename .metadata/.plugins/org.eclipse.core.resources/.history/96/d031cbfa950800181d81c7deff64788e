@@ -1,0 +1,5 @@
+package com.huohuo.rest.dao;
+
+public class JedisClientSingle {
+
+}

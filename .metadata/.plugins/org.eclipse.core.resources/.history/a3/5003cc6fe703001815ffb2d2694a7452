@@ -1,0 +1,89 @@
+package com.huohuo.service.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import org.joda.time.DateTime;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.huohuo.common.pojo.EUDataGridResult;
+import com.huohuo.common.pojo.TaotaoResult;
+import com.huohuo.common.utils.IDUtils;
+import com.huohuo.mapper.TbItemMapper;
+import com.huohuo.pojo.TbItem;
+import com.huohuo.pojo.TbItemExample;
+import com.huohuo.pojo.TbItemExample.Criteria;
+import com.huohuo.service.ItemService;
+
+@Service
+public class ItemServiceImpl implements ItemService {
+
+	@Autowired
+	private TbItemMapper itemMapper;
+	
+	public TbItem getItemById(Long itemId) {
+		
+		//按照主键查询
+		//TbItem item = itemMapper.selectByPrimaryKey(itemId);
+		
+		//或者通过下面构造查询条件进行查询
+		TbItemExample example = new TbItemExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andIdEqualTo(itemId);
+		List<TbItem> itemList = itemMapper.selectByExample(example);
+		if(itemList!=null && itemList.size()>0) {
+			return itemList.get(0);
+		}
+		return null;
+	}
+
+	//查询商品列表
+	public EUDataGridResult getItemList(Integer page, Integer rows) {
+		TbItemExample example = new TbItemExample();
+		//分页处理
+		PageHelper.startPage(page, rows);
+		List<TbItem> list = itemMapper.selectByExample(example);
+		//创建一个返回值对象
+		EUDataGridResult dateGrid = new EUDataGridResult();
+		dateGrid.setRows(list);
+		
+		//取记录总条数
+		PageInfo<TbItem> pageInfo = new PageInfo<>(list);
+		dateGrid.setTotal(pageInfo.getTotal());
+				
+		return dateGrid;
+	}
+
+	@Override
+	public TaotaoResult createItem(TbItem item) {
+		//item补全
+		//生成商品ID
+		Long itemId = IDUtils.genItemId();
+		item.setId(itemId);
+		// '商品状态，1-正常，2-下架，3-删除',
+		item.setStatus((byte) 1);
+		item.setCreated(new Date());
+		item.setUpdated(new Date());
+		//插入到数据库
+		itemMapper.insert(item);
+		//添加商品描述信息
+		TaotaoResult result = insertItemDesc(itemId, desc);
+		if (result.getStatus() != 200) {
+			throw new Exception();
+		}
+		//添加规格参数
+		result = insertItemParamItem(itemId, itemParam);
+		if (result.getStatus() != 200) {
+			throw new Exception();
+		}
+		return TaotaoResult.ok();
+		
+		
+		
+		return null;
+	}
+
+}

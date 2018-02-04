@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=huohuo-manager-service/src\/main\/java&lt;com.huohuo.service{ItemService.java[ItemService" modifiers="513" timestamp="1517115512192"/>
+<typeInfo handle="=huohuo-manager-service/src\/main\/java&lt;com.huohuo.service{PictureService.java[PictureService" modifiers="513" timestamp="1517060436144"/>
+<typeInfo handle="=huohuo-manager-service/src\/main\/java&lt;com.huohuo.service{ItemParamService.java[ItemParamService" modifiers="513" timestamp="1517324263425"/>
+<typeInfo handle="=huohuo-manager-service/src\/main\/java&lt;com.huohuo.service{ItemParamItemService.java[ItemParamItemService" modifiers="513" timestamp="1517367029486"/>
+<typeInfo handle="=huohuo-manager-service/D:\/JAVA\/JavaEnv\/jdk1.8.0_51\/jre\/lib\/rt.jar&lt;java.awt.event(ItemListener.class[ItemListener" modifiers="1537" timestamp="1515826958950"/>
+<typeInfo handle="=huohuo-rest/src\/main\/java&lt;com.huohuo.rest.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1517407485363"/>
+<typeInfo handle="=huohuo-manager-service/src\/main\/java&lt;com.huohuo.service{ContentCategoryService.java[ContentCategoryService" modifiers="513" timestamp="1517470058918"/>
+<typeInfo handle="=huohuo-manager-service/src\/main\/java&lt;com.huohuo.service{ContentService.java[ContentService" modifiers="513" timestamp="1517486950605"/>
+<typeInfo handle="=huohuo-rest/src\/main\/java&lt;com.huohuo.rest.service{ContentService.java[ContentService" modifiers="513" timestamp="1517494544337"/>
+<typeInfo handle="=huohuo-rest/src\/main\/java&lt;com.huohuo.rest.dao{JedisClient.java[JedisClient" modifiers="513" timestamp="1517634360183"/>
+<typeInfo handle="=huohuo-rest/src\/main\/java&lt;com.huohuo.rest.service{RedisService.java[RedisService" modifiers="513" timestamp="1517634230636"/>
+<typeInfo handle="=huohuo-search/src\/main\/java&lt;com.huohuo.search.service{ItemService.java[ItemService" modifiers="513" timestamp="1517668508562"/>
+<typeInfo handle="=huohuo-search/src\/main\/java&lt;com.huohuo.search.dao{SearchDao.java[SearchDao" modifiers="513" timestamp="1517672301807"/>
+<typeInfo handle="=huohuo-search/src\/main\/java&lt;com.huohuo.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1517673303233"/>
+</typeInfoHistroy>

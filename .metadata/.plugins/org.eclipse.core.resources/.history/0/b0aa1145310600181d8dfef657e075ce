@@ -1,0 +1,13 @@
+package com.huohuo.service.impl;
+
+import com.huohuo.service.ItemParamItemService;
+
+public class ItemParamItemServiceImpl implements ItemParamItemService {
+
+	@Override
+	public String getItemParamByItemId(long itemId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

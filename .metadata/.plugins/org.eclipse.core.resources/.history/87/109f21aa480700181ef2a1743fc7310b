@@ -1,0 +1,15 @@
+package com.huohuo.service.impl;
+
+import com.huohuo.common.pojo.TaotaoResult;
+import com.huohuo.pojo.TbContent;
+import com.huohuo.service.ContentService;
+
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public TaotaoResult insertContent(TbContent content) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

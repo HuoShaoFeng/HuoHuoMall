@@ -1,0 +1,5 @@
+package com.huohuo.search.pojo;
+
+public class Item {
+
+}

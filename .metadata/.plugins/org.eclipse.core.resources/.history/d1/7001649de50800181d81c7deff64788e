@@ -1,0 +1,5 @@
+package com.huohuo.rest.solrj;
+
+public class SolrJTest {
+
+}

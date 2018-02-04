@@ -1,0 +1,15 @@
+package com.huohuo.portal.service.impl;
+
+
+import com.huohuo.portal.pojo.SearchResult;
+import com.huohuo.portal.service.SearchService;
+
+public class SearchServiceImpl implements SearchService {
+
+	@Override
+	public SearchResult search(String queryString, int page) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
