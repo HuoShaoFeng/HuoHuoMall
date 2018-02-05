@@ -96,7 +96,7 @@ public class UserController {
 	@ResponseBody
 	public Object getUserByToken(@PathVariable String token, String callback) {
 		TaotaoResult result = null;
-		try {
+		try { 
 			result = userService.getUserByToken(token);
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -4690,3 +4690,6 @@
 2018-02-05 16:38:47,173 [Worker-176] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of huohuo-sso
 2018-02-05 16:38:47,173 [Worker-176] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for huohuo-sso
 2018-02-05 16:38:47,176 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:53:38,509 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-05 16:53:38,511 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-02-05 16:53:38,512 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
