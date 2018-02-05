@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="redis.clients.jedis.JedisPool" key="selection"/>
+		<item value="item-desc" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="item-desc"/>
 			<item value="redis.clients.jedis.JedisPool"/>
 			<item value="beginEdit"/>
 			<item value="nofollow"/>
@@ -19,7 +20,6 @@
 			<item value="taotao-logo.gif"/>
 			<item value="taotao-logo"/>
 			<item value="淘淘"/>
-			<item value="taotao"/>
 		</list>
 		<list key="replacehistory">
 			<item value="huohuo"/>
