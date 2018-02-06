@@ -13,9 +13,11 @@
 <typeInfo handle="=huohuo-rest/src\/main\/java&lt;com.huohuo.rest.service{RedisService.java[RedisService" modifiers="513" timestamp="1517634230636"/>
 <typeInfo handle="=huohuo-search/src\/main\/java&lt;com.huohuo.search.service{ItemService.java[ItemService" modifiers="513" timestamp="1517668508562"/>
 <typeInfo handle="=huohuo-search/src\/main\/java&lt;com.huohuo.search.dao{SearchDao.java[SearchDao" modifiers="513" timestamp="1517672301807"/>
-<typeInfo handle="=huohuo-search/src\/main\/java&lt;com.huohuo.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1517673303233"/>
+<typeInfo handle="=huohuo-search/src\/main\/java&lt;com.huohuo.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1517821404411"/>
 <typeInfo handle="=huohuo-portal/src\/main\/java&lt;com.huohuo.portal.service{SearchService.java[SearchService" modifiers="513" timestamp="1517711712154"/>
-<typeInfo handle="=huohuo-rest/src\/main\/java&lt;com.huohuo.rest.service{ItemService.java[ItemService" modifiers="513" timestamp="1517730531510"/>
-<typeInfo handle="=huohuo-portal/src\/main\/java&lt;com.huohuo.portal.service{ItemService.java[ItemService" modifiers="513" timestamp="1517736214399"/>
+<typeInfo handle="=huohuo-rest/src\/main\/java&lt;com.huohuo.rest.service{ItemService.java[ItemService" modifiers="513" timestamp="1517733569874"/>
+<typeInfo handle="=huohuo-portal/src\/main\/java&lt;com.huohuo.portal.service{ItemService.java[ItemService" modifiers="513" timestamp="1517739444148"/>
 <typeInfo handle="=huohuo-portal/D:\/JAVA\/JavaEnv\/jdk1.8.0_51\/jre\/lib\/rt.jar&lt;java.awt(ItemSelectable.class[ItemSelectable" modifiers="1537" timestamp="1515826958950"/>
+<typeInfo handle="=huohuo-sso/src\/main\/java&lt;com.huohuo.sso.service{UserService.java[UserService" modifiers="513" timestamp="1517841763388"/>
+<typeInfo handle="=huohuo-sso/D:\/JAVA\/JavaEnv\/jdk1.8.0_51\/jre\/lib\/rt.jar&lt;java.nio.file.attribute(UserDefinedFileAttributeView.class[UserDefinedFileAttributeView" modifiers="1537" timestamp="1515826958950"/>
 </typeInfoHistroy>
