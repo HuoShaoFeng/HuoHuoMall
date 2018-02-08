@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:09 +0800] "GET /search.html?q=Mate10 HTTP/1.1" 200 61659 http-bio-8082-exec-1 1458
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:10 +0800] "GET /item/151721371056746.html HTTP/1.1" 200 33016 http-bio-8082-exec-3 264
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:11 +0800] "GET /cart/add/151721371056746.html HTTP/1.1" 302 - http-bio-8082-exec-4 33
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:12 +0800] "GET /cart/success.html HTTP/1.1" 200 18220 http-bio-8082-exec-5 42
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:12 +0800] "GET /css/i/20130425D.png HTTP/1.1" 404 989 http-bio-8082-exec-6 3
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:13 +0800] "GET /cart/cart.html HTTP/1.1" 200 18084 http-bio-8082-exec-7 102
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:15 +0800] "GET /order/order-cart.html HTTP/1.1" 302 - http-bio-8082-exec-8 148
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:23 +0800] "GET /order/order-cart.html HTTP/1.1" 200 24346 http-bio-8082-exec-9 213
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:23 +0800] "GET /css/order-commons.css HTTP/1.1" 200 47486 http-bio-8082-exec-10 21
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:23 +0800] "GET /js/base.js HTTP/1.1" 200 12499 http-bio-8082-exec-1 13
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:23 +0800] "GET /js/order.common.js HTTP/1.1" 200 9499 http-bio-8082-exec-3 14
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:23 +0800] "GET /js/jquery.checkout.js HTTP/1.1" 200 13775 http-bio-8082-exec-4 17
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:23 +0800] "GET /images/user_purchase.png HTTP/1.1" 200 1474 http-bio-8082-exec-10 14
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:23 +0800] "GET /images/purchase-icon.png HTTP/1.1" 200 658 http-bio-8082-exec-4 17
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:25 +0800] "POST /order/create.html HTTP/1.1" 200 13435 http-bio-8082-exec-10 156
+0:0:0:0:0:0:0:1 - - [06/Feb/2018:22:35:25 +0800] "GET /images/errordog.jpg HTTP/1.1" 200 26691 http-bio-8082-exec-10 1

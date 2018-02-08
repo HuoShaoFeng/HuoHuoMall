@@ -2,3 +2,4 @@
 1517730440735	Copy compilation unit
 1517730447029	Delete element
 1517905092167	Rename resource 'cart.jsp'
+1518049958779	Extract local variable 'user'

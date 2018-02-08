@@ -20,4 +20,9 @@
 <typeInfo handle="=huohuo-portal/D:\/JAVA\/JavaEnv\/jdk1.8.0_51\/jre\/lib\/rt.jar&lt;java.awt(ItemSelectable.class[ItemSelectable" modifiers="1537" timestamp="1515826958950"/>
 <typeInfo handle="=huohuo-sso/src\/main\/java&lt;com.huohuo.sso.service{UserService.java[UserService" modifiers="513" timestamp="1517841763388"/>
 <typeInfo handle="=huohuo-sso/D:\/JAVA\/JavaEnv\/jdk1.8.0_51\/jre\/lib\/rt.jar&lt;java.nio.file.attribute(UserDefinedFileAttributeView.class[UserDefinedFileAttributeView" modifiers="1537" timestamp="1515826958950"/>
+<typeInfo handle="=huohuo-portal/D:\/MavenRepositoryPro\/TaoTaoRepository\/org\/springframework\/spring-webmvc\/4.1.3.RELEASE\/spring-webmvc-4.1.3.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1437286043484"/>
+<typeInfo handle="=huohuo-portal/src\/main\/java&lt;com.huohuo.portal.service{UserService.java[UserService" modifiers="513" timestamp="1517895989011"/>
+<typeInfo handle="=huohuo-portal/src\/main\/java&lt;com.huohuo.portal.service{CartService.java[CartService" modifiers="513" timestamp="1517906833363"/>
+<typeInfo handle="=huohuo-manager-pojo/src\/main\/java&lt;com.huohuo.pojo{TbOrder.java[TbOrder" modifiers="1" timestamp="1516716494124"/>
+<typeInfo handle="=huohuo-portal/src\/main\/java&lt;com.huohuo.portal.service{OrderService.java[OrderService" modifiers="513" timestamp="1517925627230"/>
 </typeInfoHistroy>

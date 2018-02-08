@@ -1,5 +1,0 @@
-package com.huohuo.service;
-
-public interface ItemParamService {
-
-}
